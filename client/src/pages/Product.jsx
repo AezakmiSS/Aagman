@@ -61,15 +61,6 @@ const FilterTitle = styled.span`
   font-weight: 200;
 `;
 
-const FilterColor = styled.div`
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: ${(props) => props.color};
-  margin: 0px 5px;
-  cursor: pointer;
-`;
-
 const FilterSize = styled.select`
   margin-left: 10px;
   padding: 5px;
@@ -120,10 +111,10 @@ const Product = () => {
       <Navbar />
       <Wrapper>
         <ImgContainer>
-          <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
+          <Image src="http://www.columbia.edu/itc/mealac/pritchett/00routesdata/1800_1899/britishrule/indiagate/indiagate1.jpg" />
         </ImgContainer>
         <InfoContainer>
-          <Title>Denim Jumpsuit</Title>
+          <Title>India Gate</Title>
           <Desc>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
@@ -133,24 +124,27 @@ const Product = () => {
           </Desc>
           <Price>$ 20</Price>
           <FilterContainer>
-            <Filter>
+            {/* <Filter>
               <FilterTitle>Color</FilterTitle>
               <FilterColor color="black" />
               <FilterColor color="darkblue" />
               <FilterColor color="gray" />
-            </Filter>
+            </Filter> */}
             <Filter>
-              <FilterTitle>Size</FilterTitle>
+              <FilterTitle>Nationality</FilterTitle>
               <FilterSize>
-                <FilterSizeOption>XS</FilterSizeOption>
-                <FilterSizeOption>S</FilterSizeOption>
-                <FilterSizeOption>M</FilterSizeOption>
-                <FilterSizeOption>L</FilterSizeOption>
-                <FilterSizeOption>XL</FilterSizeOption>
+                <FilterSizeOption>Indian</FilterSizeOption>
+                <FilterSizeOption>Foreign</FilterSizeOption>
+                <FilterSizeOption>SAARC</FilterSizeOption>
               </FilterSize>
             </Filter>
           </FilterContainer>
           <AddContainer>
+            <AmountContainer>
+              <Remove />
+              <Amount>1</Amount>
+              <Add />
+            </AmountContainer>
             <AmountContainer>
               <Remove />
               <Amount>1</Amount>
