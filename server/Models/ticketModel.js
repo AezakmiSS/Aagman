@@ -1,26 +1,23 @@
 const mongoose=require('mongoose')
 const ticketSchema=new mongoose.Schema({
-    ticketId:{
-        type:String,
-        required:true,
-        unique:true,
-    },
-    ticketMonumentId:{
-        type:String,
-        required:true,
-    },
-    ticketPeople:{
-       type:[Schema.Types.ObjectId],
-       ref:tourist,
-    },
-    ticketfare:{
+    monument:{type:mongoose.Schema.Types.ObjectId,ref:'Monument'},
+    user:{type:mongoose.Schema.Types.ObjectId,ref:'User'},
+    numberOfVisitor:{
         type:Number,
-        required:true,
+        required:true
     },
-    ticketDateTime:{
-        type:[]
-    }
+    visitorIdType:{
+        type:String,
+        required:true
+    },
+    VisitorIdNumber:{
+        type:Number,
+        required:true
+    },
+    fare:{
+        type:Number,
+        required:true
+    },
 })
-
 const Ticket=mongoose.model('Ticket',ticketSchema)
 module.exports=Ticket
