@@ -1,34 +1,55 @@
 const mongoose=require('mongoose')
-
-const timeSchema=new mongoose.Schema({
-        startTime: Date,
-        endTime: Date,
-})
 const monumentSchema=new mongoose.Schema({
-    monumentName:{
+    name:{
+        type:String,
+        required: true
+    },
+    area:{
         type:String,
         required:true
     },
-    monumentCity:{
+    state:{
         type:String,
-        required:true
+        required: true
     },
-    monumentPrice:{
+    pincode:{
+       type:Number,
+       required: true
+    },
+    city:{
+        type:String,
+        required: true
+    },
+    ticketIndia:{
         type:Number,
-        required:true
+        required: true  
     },
-    monumentLimit:{
+    ticketForeign:{
         type:Number,
+        required: true
     },
-    monumentWiki:{
-        url:String,
+    ticketSaarc:{
+       type:Number,
+       required: true
     },
-    monumentTiming:{
-        type:timeSchema,
+    limit:{
+        type:Number
     },
-    monumentVisitor:{
-        type:Number,
-    }
+    desc:{
+        type:String
+    },
+    openingTime:{
+        type:String,
+        required: true
+    },
+    closingTime:{
+        type:String,
+        required: true
+    },
+    VisitorCount:[{
+        date:Date,
+        count:Number
+    }]
 })
 
 const Monument=mongoose.model('Monument',monumentSchema)
