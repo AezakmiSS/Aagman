@@ -105,7 +105,7 @@ const Button = styled.button`
   }
 `;
 
-const Product = () => {
+const Monument = () => {
   return (
     <Container>
       <Navbar />
@@ -160,4 +160,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Monument;

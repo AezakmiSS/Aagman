@@ -35,7 +35,7 @@ const Select = styled.select`
 `;
 const Option = styled.option``;
 
-const ProductList = () => {
+const MonumentList = () => {
   return (
     <Container>
       <Navbar />
@@ -81,4 +81,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default MonumentList;
