@@ -1,5 +1,5 @@
 import { Badge } from "@material-ui/core";
-import { Search, ShoppingCartOutlined } from "@material-ui/icons";
+import { Search, FastForward } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
@@ -63,10 +63,12 @@ const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
+  border: 0.5px solid lightgray;
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
 const Navbar = () => {
+    const user=JSON.parse(localStorage.getItem('profile'))
   return (
     <Container>
       <Wrapper>
@@ -78,14 +80,13 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Tourismo</Logo>
+          <Logo>Aagman</Logo>
         </Center>
         <Right>
-          <NavLink to='/register'><MenuItem>REGISTER</MenuItem></NavLink>
           <NavLink to='/login'><MenuItem>Login</MenuItem></NavLink>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
-              <ShoppingCartOutlined />
+              <FastForward/>
             </Badge>
           </MenuItem>
         </Right>

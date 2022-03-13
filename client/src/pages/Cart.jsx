@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { mobile } from "../responsive";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const Container = styled.div``;
 
@@ -153,6 +155,12 @@ const Button = styled.button`
 `;
 
 const Cart = () => {
+  const navigate=useNavigate()
+  useEffect(()=>{
+    const user=JSON.parse(localStorage.getItem('profile'))
+    if(!user)
+    navigate('/')
+  },[])
   return (
     <Container>
       <Navbar />

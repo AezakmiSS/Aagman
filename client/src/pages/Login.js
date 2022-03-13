@@ -93,10 +93,10 @@ const SignupForm = ({  setIsLogin, userType }) => {
 
   return (
     <div class="w-full  m-3 sm:mx-auto mx-0">
-      <div class="bg-white shadow-md border border-gray-200 rounded-lg  w-full p-4 sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div class="bg-white shadow-md border border-gray-200 rounded-lg  w-full p-4 sm:p-6 lg:p-8 dark:bg-blue-100 dark:border-green-300">
         <form class="space-y-6" action="#">
 
-        <h3 class="text-xl font-medium text-gray-900 dark:text-white">
+        <h3 class="text-xl font-medium text-gray-900 dark:text-gray">
             Login
         </h3>
           {error && (
@@ -180,13 +180,13 @@ const SignupForm = ({  setIsLogin, userType }) => {
               className="text-sm text-blue-700 hover:underline cursor-pointer ml-auto dark:text-blue-500"
               onClick={() => setIsLogin(3)}
             >
-              Lost Password?
+              forgot Password?
             </span>
           </div>
           <button
             type="submit"
             onClick={handleCustomLogin}
-            class="w-full text-white text-lg bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            class="w-full text-white text-lg bg-blue-200 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Login to your account
           </button>
