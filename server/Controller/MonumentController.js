@@ -46,17 +46,17 @@ const updateMonumentById=async(req,res)=>{
 const deleteMonumentById=async(req,res)=>
 {
    try{
-       const Monument=await monument.findByIdAndDelete(req.param.id)
-       res.json(200).json(Monument)
+       const Monument=await monument.findByIdAndDelete(req.params.id)
+       res.status(200).json(Monument)
    }
    catch(error){
-       res.status(404).json({message:error.message})
+       res.status(403).json({message:error.message})
    }
 }
 
 const getMonumentByCity=async(req,res)=>{
     try{
-        const Monument=await monument.find({city:req.body.city})
+        const Monument=await monument.find({city:req.params.city})
         res.status(200).json(Monument)
     }
     catch(error)
@@ -69,8 +69,8 @@ const getMonumentByCity=async(req,res)=>{
 const getMonumentByPincode=async(req,res)=>
 {
     try{
-        const Monument=await monument.find({pincode:req.body.pincode})
-        res.status(202).json(Monument)
+        const Monument=await monument.find({pincode:req.params.pincode})
+        res.status(200).json(Monument)
     }
     catch(error)
     {
@@ -80,7 +80,7 @@ const getMonumentByPincode=async(req,res)=>
 
 const getMonumentByState=async(req,res)=>{
     try{
-        const Monument=await monument.find({state:req.body.state})
+        const Monument=await monument.find({state:req.params.state})
         res.status(200).json(Monument)
     }
     catch(error)

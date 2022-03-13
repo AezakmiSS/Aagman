@@ -7,8 +7,8 @@ router.post('/addMonument',addMonument)
 router.get('/getMonuments/all',getMonument)
 router.put('/Mounument/:id',updateMonumentById)
 router.delete('/Monument/:id',deleteMonumentById)
-router.get('/Monuments/:city',getMonumentByCity)
-router.get('/Monuments/:Pincode',getMonumentByPincode)
-router.get('/Monuments/:State',getMonumentByState)
+router.get('/MonumentsByCity/:city',getMonumentByCity)
+router.get('/MonumentsByPin/:pincode',getMonumentByPincode)
+router.get('/MonumentsByState/:state',getMonumentByState)
 
 module.exports=router

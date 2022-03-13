@@ -9,24 +9,18 @@ const userModel=new mongoose.Schema({
         type:String,
         required:true
     },
-    age:{
-        type:Number,
-        required:true
-    },
     phone:{
         type:Number,
-        required:true
     },
     tickets:[{
       type:mongoose.Schema.Types.ObjectId,ref:'Ticket'
     }],
-    password:{
-        type:String,
-        required:true
-    },
     address:{
         area:String,
         country:String
+    },
+    userType:{
+        type:String
     }
 })
 
