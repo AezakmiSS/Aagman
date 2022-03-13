@@ -5,7 +5,7 @@ const PORT=process.env.PORT||5000
 const http=require('http')
 const mongoose=require('mongoose')
 //Database Setup
-const CONNECTION_URL='mongodb://localhost/EntrySystem1'
+const CONNECTION_URL='mongodb://localhost/EntrySystem'
 
 
 app.use(express.json({limit:"30mb", extended:true}))

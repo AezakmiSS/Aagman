@@ -1,4 +1,4 @@
-import {
+ import {
     FavoriteBorderOutlined,
     SearchOutlined,
     ShoppingCartOutlined,

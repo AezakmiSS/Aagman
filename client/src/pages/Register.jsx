@@ -38,13 +38,13 @@ const SignupForm = ({ isLogin, setIsLogin, selectedCSC, setSelectedCSC, userType
   const loginUserFunc = async (sendData) => {
     try {
       let response
-      if(sendData.userType==="DOCTOR")
+      if(sendData.userType==="ADMIN")
         response = await loginAdminAPI(sendData);
 
-      else if(sendData.userType==="PATIENT")
+      else if(sendData.userType==="USER")
         response = await loginUserAPI(sendData);
 
-      else if(sendData.userType==="HELPER")
+      else if(sendData.userType==="MINISTRY")
         response = await loginMinistryAPI(sendData);
 
       if (response.status !== 200) throw new Error(response.data.message);
@@ -60,13 +60,13 @@ const SignupForm = ({ isLogin, setIsLogin, selectedCSC, setSelectedCSC, userType
     try {
       console.log("yaha bhi chal gaya....", sendData)
       let response
-      if(sendData.userType==="DOCTOR")
+      if(sendData.userType==="ADMIN")
         response = await CustomloginAdminAPI(sendData);
 
-      else if(sendData.userType==="PATIENT")
+      else if(sendData.userType==="USER")
         response = await CustomloginUserAPI(sendData);
 
-      else if(sendData.userType==="HELPER")
+      else if(sendData.userType==="MINISTRY")
         response = await CustomloginMinistryAPI(sendData);
 
       if (response.status !== 200) throw new Error(response.data.message);

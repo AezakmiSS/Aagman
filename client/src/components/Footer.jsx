@@ -88,11 +88,11 @@ import {
     return (
       <Container>
         <Left>
-          <Logo>LAMA.</Logo>
+          <Logo>
+         Aagman
+          </Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+          A monument is a large structure, usually made of stone, which is built to remind people of an event in history or of a famous person. 2. countable noun. A monument is something such as a castle or bridge which was built a very long time ago and is regarded as an important part of a country's history.
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -113,27 +113,27 @@ import {
           <Title>Useful Links</Title>
           <List>
             <ListItem>Home</ListItem>
-            <ListItem>Cart</ListItem>
-            <ListItem>Man Fashion</ListItem>
-            <ListItem>Woman Fashion</ListItem>
+            <ListItem>About Us</ListItem>
+            <ListItem>List of monument</ListItem>
+            <ListItem>Search By Monument</ListItem>
             <ListItem>Accessories</ListItem>
             <ListItem>My Account</ListItem>
-            <ListItem>Order Tracking</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Wishlist</ListItem>
+            <ListItem>Booking</ListItem>
+            <ListItem>Ministry</ListItem>
+            <ListItem>Admin</ListItem>
             <ListItem>Terms</ListItem>
           </List>
         </Center>
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+            <Room style={{marginRight:"10px"}}/> IIIT Ranchi,Jharkhand
           </ContactItem>
           <ContactItem>
-            <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+            <Phone style={{marginRight:"10px"}}/> 2345678
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+            <MailOutline style={{marginRight:"10px"}} /> contact.dev@gmail.com
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>

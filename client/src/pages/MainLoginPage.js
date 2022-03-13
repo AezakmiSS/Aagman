@@ -5,7 +5,7 @@ import ForgotPassword from "./ForgotPassword";
 
 export default function InternForm({ userType }) {
   const user = JSON.parse(localStorage.getItem("profile"));
-  const [isLogin, setIsLogin] = React.useState(2)
+  const [isLogin, setIsLogin] = React.useState(1)
   console.log("lawde ka user", isLogin)
 
   const [selectedCSC, setSelectedCSC] = useState({country:"", state:"", city:"", streetAddress:"", pinCode:1234})
