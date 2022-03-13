@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import { mobile } from "../responsive";
+import { useDispatch } from "react-redux";
 
 const Container = styled.div``;
 
@@ -106,6 +107,7 @@ const Button = styled.button`
 `;
 
 const Product = () => {
+  
   return (
     <Container>
       <Navbar />
@@ -122,7 +124,7 @@ const Product = () => {
             tristique tortor pretium ut. Curabitur elit justo, consequat id
             condimentum ac, volutpat ornare.
           </Desc>
-          <Price>$ 20</Price>
+          <Price>₹ 20</Price>
           <FilterContainer>
             {/* <Filter>
               <FilterTitle>Color</FilterTitle>
@@ -145,11 +147,7 @@ const Product = () => {
               <Amount>1</Amount>
               <Add />
             </AmountContainer>
-            <AmountContainer>
-              <Remove />
-              <Amount>1</Amount>
-              <Add />
-            </AmountContainer>
+           
             <Button>ADD TO CART</Button>
           </AddContainer>
         </InfoContainer>

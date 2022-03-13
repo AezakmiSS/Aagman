@@ -88,11 +88,13 @@ import {
     return (
       <Container>
         <Left>
-          <Logo>LAMA.</Logo>
+          <Logo>TOURISMO</Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+          A QR based ticketing system with necessary hardware for the seamless visitor experience in
+           Museums/Heritage sites. In addition, The prediction of the expected crowd is also available on the admin dashboard.
+           It reduces booking expenses by eliminating the need for printing 
+           and mailing paper documents. It can help in keeping a better record of visitors. Can improve 
+           sales as a visitor can book, purchase and print out the electronic ticket any time 24 hours a day.
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -113,13 +115,13 @@ import {
           <Title>Useful Links</Title>
           <List>
             <ListItem>Home</ListItem>
-            <ListItem>Cart</ListItem>
-            <ListItem>Man Fashion</ListItem>
-            <ListItem>Woman Fashion</ListItem>
-            <ListItem>Accessories</ListItem>
+            <ListItem>Admin Dashboard</ListItem>
+            <ListItem>Monuments</ListItem>
+            <ListItem>Booked Tickets</ListItem>
+            <ListItem>Museum</ListItem>
             <ListItem>My Account</ListItem>
-            <ListItem>Order Tracking</ListItem>
-            <ListItem>Wishlist</ListItem>
+            <ListItem>Natural Places</ListItem>
+            <ListItem>Creator</ListItem>
             <ListItem>Wishlist</ListItem>
             <ListItem>Terms</ListItem>
           </List>
@@ -127,13 +129,13 @@ import {
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+            <Room style={{marginRight:"10px"}}/>IIIT Ranchi, JUPMI Campus, Ranchi
           </ContactItem>
           <ContactItem>
             <Phone style={{marginRight:"10px"}}/> +1 234 56 78
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+            <MailOutline style={{marginRight:"10px"}} /> contact@teamname.dev
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>

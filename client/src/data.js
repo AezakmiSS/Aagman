@@ -3,21 +3,21 @@ export const sliderItems = [
       id: 1,
       img: "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
       title: "Taj Mahal",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      desc: "Incredible India",
       bg: "f5fafd",
     },
     {
       id: 2,
       img: "https://images.thrillophilia.com/image/upload/s--dU7lG0qq--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/194/370/original/1582887844_shutterstock_251917456.jpg.jpg?1582887844",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      title: "Ajanta Caves",
+      desc: "Incredible India",
       bg: "fcf1ed",
     },
     {
       id: 3,
       img: "https://assets.newatlas.com/dims4/default/541ac31/2147483647/strip/true/crop/1315x847+0+0/resize/1315x847!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Flargest-statue-unity-2.png",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      title: "Unity standing tall",
+      desc: "Incredible India",
       bg: "fbf0f4",
     },
   ];
@@ -35,42 +35,53 @@ export const sliderItems = [
     },
     {
       id: 3,
-      img: "https://optimatravels.com/images/kolkata-images/indian-museum-kolkata-india.png",
-      title: "MUSEUMS",
+      
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/India_Gate_in_New_Delhi_03-2016.jpg/720px-India_Gate_in_New_Delhi_03-2016.jpg?20160512234622",
+      title: "MONUMENTS",
     },
+    {
+      id: 4,
+      img: "https://www.incredibleindia.org/content/dam/incredibleindia/images/places/kolkata/kolkata-indian-museum-11.jpg/_jcr_content/renditions/cq5dam.web.480.271.jpeg",
+      title: "MUSEUM",
+    },
+    {
+      id: 5,
+      img: "https://eartheclipse.com/wp-content/uploads/2020/04/zebra-wildlife.jpg",
+      title: "NATURAL PLACES",
+    }
   ];
 
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Charminar-Pride_of_Hyderabad.jpg/800px-Charminar-Pride_of_Hyderabad.jpg",
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://upload.wikimedia.org/wikipedia/commons/1/16/Qutb_minar_in_Qutb_complex.jpg",
     },
     {
       id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://i2.wp.com/orissadiary.com/wp-content/uploads/2021/08/Konark.jpg?fit=1080%2C1350&ssl=1",
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://2.bp.blogspot.com/-7xCneBXI44o/Wbk1D31YdUI/AAAAAAAA0eg/_If-grF5kEcAaJcTSUPl1Ro8PirimudkQCLcBGAs/s1600/Bibi%2Bka%2Bmaqbara%2B4.jpg",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://upload.wikimedia.org/wikipedia/commons/5/5d/Tomb_of_Mariam-uz-zamani_Agra_up_india.jpg",
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://images.unsplash.com/photo-1575566668200-7dcaa7b2cf28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://preview.redd.it/yx7gle730q981.jpg?width=1080&format=pjpg&auto=webp&s=023111bf5f8e92ac371529ec30cdaa3c467bacea",
     },
     {
       id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
-    },
+      img:"https://iet-content.s3.ap-southeast-1.amazonaws.com/Daily-Edition/Architecture/-/NOfh591",
+    }
   ]
