@@ -25,6 +25,29 @@ Users may click on the login button to sign in/register. Click on Book Now to bo
 ### Log In
 ![logintype](/images/LoginType.jpeg "Login Type")
 ![login](/images/login.jpeg "Login")
+Select User type and login.
+
+### Register
+![Register](/images/register.jpeg "Register")
+Create a new account
+
+### Monuments List
+![monument](/images/monumentlist.jpeg "list")
+Select where you want to go.
+
+### Monument Details
+![logintype](/images/monumentpage.jpeg "monument")
+Monument details and select number of tickets.
+
+### Add details to book
+![booking](/images/booking.jpeg "")
+
+
+
+
+
+
+
 
 
 
