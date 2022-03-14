@@ -111,18 +111,14 @@ const Monument = () => {
       <Navbar />
       <Wrapper>
         <ImgContainer>
-          <Image src="http://www.columbia.edu/itc/mealac/pritchett/00routesdata/1800_1899/britishrule/indiagate/indiagate1.jpg" />
+          <Image src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg" />
         </ImgContainer>
         <InfoContainer>
-          <Title>India Gate</Title>
+          <Title>Sun Temple Konark</Title>
           <Desc>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
-            iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
-            tristique tortor pretium ut. Curabitur elit justo, consequat id
-            condimentum ac, volutpat ornare.
+          A UNESCO World Heritage Site, Konark Sun temple is a striking model of ancient artistry, fluidity of ideas, and a pedagogic treasury. Dedicated to the sun god, Surya, the first rays of the sun fall on the entrance of the temple. Much of the temple has fallen into rack and ruin but what remains still holds enough charm to captivate. An interpretation of a greater imagination, it has seen empires rise and fall, identities washed away, yet appealing to our sensorium even today.
           </Desc>
-          <Price>$ 20</Price>
+          <Price>&#8377; 20</Price>
           <FilterContainer>
             {/* <Filter>
               <FilterTitle>Color</FilterTitle>
@@ -139,18 +135,19 @@ const Monument = () => {
               </FilterSize>
             </Filter>
           </FilterContainer>
-          <AddContainer>
+          <AddContainer> Adults: 
             <AmountContainer>
               <Remove />
               <Amount>1</Amount>
               <Add />
             </AmountContainer>
-            <AmountContainer>
+            <br />
+            <AmountContainer>    Children:
               <Remove />
               <Amount>1</Amount>
               <Add />
             </AmountContainer>
-            <Button>ADD TO CART</Button>
+            <Button>Book Now</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>

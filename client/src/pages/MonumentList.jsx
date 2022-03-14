@@ -39,11 +39,11 @@ const MonumentList = () => {
   return (
     <Container>
       <Navbar />
-      <Title>Dresses</Title>
+      <Title>Plan your next visit</Title>
       <FilterContainer>
         <Filter>
-          <FilterText>Filter Products:</FilterText>
-          <Select>
+          <FilterText>Filter:</FilterText>
+          {/* <Select>
             <Option disabled selected>
               Color
             </Option>
@@ -53,26 +53,26 @@ const MonumentList = () => {
             <Option>Blue</Option>
             <Option>Yellow</Option>
             <Option>Green</Option>
-          </Select>
+          </Select> */}
           <Select>
             <Option disabled selected>
-              Size
+              Monument Type
             </Option>
-            <Option>XS</Option>
-            <Option>S</Option>
-            <Option>M</Option>
-            <Option>L</Option>
-            <Option>XL</Option>
+            <Option>Heritage Sites</Option>
+            <Option>Monuments</Option>
+            <Option>National Parks and Reserve</Option>
+            <Option>Museums</Option>
+            <Option>Memorials</Option>
           </Select>
         </Filter>
-        <Filter>
-          <FilterText>Sort Products:</FilterText>
+        {/* <Filter>
+          <FilterText>Sort:</FilterText>
           <Select>
             <Option selected>Newest</Option>
             <Option>Price (asc)</Option>
             <Option>Price (desc)</Option>
           </Select>
-        </Filter>
+        </Filter> */}
       </FilterContainer>
       <Products />
       <Newsletter />
